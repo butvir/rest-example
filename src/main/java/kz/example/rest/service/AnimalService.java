@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class AnimalService {
 
     public Animal getParrot() {
-        Animal parrot = new Animal("bird", "parrot", 250.5);
+        Animal parrot = new Animal("bird1", "parrot", 250.5);
         return parrot;
     }
 
